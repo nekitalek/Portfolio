@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200;400;800&family=Montserrat:ital,wght@1,300;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #2d2d2d;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    height: 75px;
+    display: flex;
+    justify-content: end;
+}
+.catalog{
+    text-decoration: none;
+    color: #838383;
+    margin: 25px 25px;
+    font-variation-settings: "wght" 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease;
+}
+.catalog:hover{
+    color: #d7d7d7;
+}
+.head1{
+    text-align: center;
+    font-variation-settings: "wght" 900;
+    font-family: 'Lexend Peta', sans-serif;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 15px;
+    color: #000000;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+.head2{
+    text-align: center;
+    font-variation-settings: "wght" 900;
+    font-family: 'Lexend Peta', sans-serif;
+    position: absolute;
+    bottom: 25%;
+    margin-left: 15px;
+    color: #000000;
+    text-shadow: -1px -1px 0 #838383, 1px -1px 0 #838383, -1px 1px 0 #838383, 1px 1px 0 #838383;
+}
+header{
+    background-image: url("https://www.worldforestry.org/wp-content/uploads/2020/02/dan-otis-OYFHT4X5isg-unsplash-scaled.jpg");
+    height: 900px;
+    width: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+#about-header{
+    text-align: center;
+    font-size: 40px;
+    height: max-content;
+    font-variation-settings: "wght" 900;
+    font-family: 'Lexend Peta', sans-serif;
+}
+#about{
+    background-color: #2d2d2d;
+    height: 750px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -35px;
+}
+.about-me-content{
+    font-variation-settings: "wght" 400;
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 250px;
+}
+.ph{
+    position: absolute;
+    margin-left: 15px;
+}
+.ph2{
+    z-index: 1;
+    margin: 90px;
+}
+#portfolio{
+    background: linear-gradient(#2d2d2d, #ffffff);
+    height: 600px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#portfolio-content{
+    text-align: center;
+    font-size: 40px;
+    height: max-content;
+    font-variation-settings: "wght" 900;
+    font-family: 'Lexend Peta', sans-serif;
+}
+#contacts{
+    text-align: center;
+    padding: 10px;
+}
+.contact{
+    font-variation-settings: "wght" 200;
+    font-family: 'Lexend Peta', sans-serif;
+    padding: 0;
+    margin-bottom: 0;
+}
+.logos{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+footer{
+    padding: 10px 10px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -10%;
+    background-color: #2d2d2d;
+    color: #838383;
+    text-align: right;
+}
+#footer1{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+#footer2{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+@media only screen and (max-width : 1200px) {
+    .hamburger {
+        display: none;
+    }
+}

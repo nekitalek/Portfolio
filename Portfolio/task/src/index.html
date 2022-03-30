@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>nekitalek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hamburger">
+        <nav>
+                <a class="catalog" href="#about-header">About me</a>
+                <a class="catalog" href="#portfolio">Portfolio</a>
+                <a class="catalog" href="#contacts">Contacts</a>
+        </nav>
+    </div>
+    <header>
+        <h1 class="head1">Nikita Dedov</h1>
+        <h1 class="head2">developer | gamer | ceo</h1>
+    </header>
+    <section id="about">
+        <h2 id="about-header"> About me</h2>
+        <img class="ph ph1" src="https://sun9-52.userapi.com/impg/H5mRCk3BI9C8pGvFO33rFYr-WrqFwje2jElSqA/Aqx-1tR0cPs.jpg?size=2560x1702&quality=96&sign=4e91747570d1f487fd37d4022290129a&type=album" alt="my photo" width="700" height="500">
+        <img class="ph ph2" src="https://sun9-20.userapi.com/impf/BI-KsrBNTj4Lz5NPMW_jyH7bcy8RX0RZZo1LZw/QTn0L1N_aQc.jpg?size=1280x960&quality=96&sign=7d83bb5b60414cd9975612bd2e19d4ec&type=album" alt="my photo 2" width="700" height="500">
+        <div class="about-me-content">
+            <p>Hi, my name is Nikita and now im practicing for junior front-end developer of 1 month.</p>
+            <p>I'm just trying to create from 0 full cross-platform site </p>
+            <p><b>Skills:</b> HTML, CSS, JS, C/C++, Assembler</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2 id="portfolio-content">Portfolio</h2>
+        <img src="https://static01.nyt.com/images/2012/06/10/magazine/10wmt/mag-10WMT-t_CA0-superJumbo.jpg?quality=75&auto=webp" alt="fingerprint imp" width="300" height="200" >
+        <p>Internet fingerprint implementation</p>
+        <button class="open-window" onclick="openForm()">learn more</button>
+            <div class="window" id="myForm">
+                    <h1>Login</h1>
+                    <p>Fingerprint implementation with Node.js and Go</p>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </div>
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+    </section>
+    <section id="contacts">
+        <h2 class="contact">Contacts</h2>
+        <p style="padding: 0; margin-top: 5px">email: nekitness@gmail.com </p>
+        <a href="https://t.me/nekitalek">
+            <img class="logos" src="https://img.icons8.com/ios/50/000000/telegram-app.png" alt="tg"/>
+        </a>
+        <a href="https://vk.com/yyachtyy">
+            <img class="logos" src="https://img.icons8.com/ios/500/000000/vk-com.png" alt="vk"/>
+        </a>
+        <a href="https://github.com/nekitalek">
+            <img class="logos" src="https://img.icons8.com/ios/50/000000/github--v1.png" alt="github"/>
+        </a>
+        <a href="https://www.instagram.com/dedov.nv/">
+            <img class="logos" src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" alt="inst"/>
+        </a>
+    </section>
+    <footer>
+        <p id="footer1">NEKITALEK DEDOV</p>
+        <p id="footer2">2022</p>
+    </footer>
+</body>
+</html>
